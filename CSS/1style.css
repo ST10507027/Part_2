@@ -1,1 +1,92 @@
- 
+ /* BASE (HOME PAGE) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f3ef;
+    color: #2f2f2f;
+    line-height: 1.6;
+}
+
+/*  HEADER */
+
+header {
+    background: #5c3d2e;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #d8b08c;
+    color: #5c3d2e;
+}
+
+/* MAIN GRID */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.page-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.page-section:hover {
+    transform: translateY(-5px);
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #5c3d2e;
+    color: white;
+    margin-top: 3rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
