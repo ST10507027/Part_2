@@ -27,6 +27,7 @@ main {
     width: 100%;
 }
 
+
 /* Header */
 
 header {
@@ -62,6 +63,7 @@ header h1 {
 .logo:hover {
     transform: scale(1.03);
 }
+
 
 /* Navigation */
 
