@@ -3,23 +3,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>home.html</loc>
+        <loc>https://brewhavencoffea.netlify.app/home.html</loc>
     </url>
 
     <url>
-        <loc>menu.html</loc>
+        <loc>https://brewhavencoffea.netlify.app/menu.html</loc>
     </url>
 
     <url>
-        <loc>gallery.html</loc>
+        <loc>https://brewhavencoffea.netlify.app/gallery.html</loc>
     </url>
 
     <url>
-        <loc>aboutus.html</loc>
+        <loc>https://brewhavencoffea.netlify.app/aboutus.html</loc>
     </url>
 
     <url>
-        <loc>contact.html</loc>
+        <loc>https://brewhavencoffea.netlify.app/contact.html</loc>
     </url>
 
 </urlset>
